@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -25,9 +26,14 @@ namespace WebMVC.Controllers
             var webMVCContext = _context.Product.Include(p => p.Category);
             return View(await webMVCContext.ToListAsync());
         }
-
-        // GET: Products/Details/5
-        public async Task<IActionResult> Details(int? id)
+        [HttpPost]
+		public async Task<IActionResult> Index(int catid, string keywords)
+		{
+			var webMVCContext = _context.Product.Include(p => p.Category).Where(p => p.Name.Contains(keywords) &&  p.CategoryId == catid);
+			return View(await webMVCContext.ToListAsync());
+		}
+		// GET: Products/Details/5
+		public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -46,6 +52,7 @@ namespace WebMVC.Controllers
         }
 
         // GET: Products/Create
+        [Authorize(Roles ="Administrator")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Category, "Id", "Name");
@@ -70,6 +77,7 @@ namespace WebMVC.Controllers
         }
 
         // GET: Products/Edit/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -91,6 +99,7 @@ namespace WebMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Quantity,ImageUrl,CategoryId")] Product product)
         {
             if (id != product.Id)
@@ -123,6 +132,7 @@ namespace WebMVC.Controllers
         }
 
         // GET: Products/Delete/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

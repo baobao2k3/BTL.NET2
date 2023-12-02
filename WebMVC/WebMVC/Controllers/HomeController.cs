@@ -1,21 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using WebMVC.Data;
 using WebMVC.Models;
 
 namespace WebMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+		private readonly WebMVCContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+		public HomeController(WebMVCContext context)
+		{
+			_context = context;
+		}
 
-        public IActionResult Index()
+		public IActionResult Index()
         {
-            return View();
+            return View(_context.Product.Include(p => p.Category).ToList());
         }
 
         public IActionResult Privacy()

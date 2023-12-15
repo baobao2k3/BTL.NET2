@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wwzpjibiv7En1ncNHfs3s7zNnXo36u6fNTem9VP2n5U=",
+  "Hash": "xWDNXBOt9g5NPs0NoXVxqU//X5ZhwgqiNSdwGWiLWQs=",
   "Source": "WebMVC",
   "BasePath": "_content/WebMVC",
   "Mode": "Default",
@@ -435,6 +435,25 @@
       "OriginalItemSpec": "wwwroot\\fonts\\slick.woff"
     },
     {
+      "Identity": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\img\\corona.png",
+      "SourceId": "WebMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\",
+      "BasePath": "_content/WebMVC",
+      "RelativePath": "img/corona.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\corona.png"
+    },
+    {
       "Identity": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\img\\hotdeal.png",
       "SourceId": "WebMVC",
       "SourceType": "Discovered",
@@ -452,25 +471,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\hotdeal.png"
-    },
-    {
-      "Identity": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\img\\logo.png",
-      "SourceId": "WebMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\",
-      "BasePath": "_content/WebMVC",
-      "RelativePath": "img/logo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
       "Identity": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\wwwroot\\img\\product01.png",

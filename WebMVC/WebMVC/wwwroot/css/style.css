@@ -441,8 +441,7 @@ textarea.input {
 
 /*----------------------------*\
 	Logo
-\*----------------------------*/
-
+    
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -450,12 +449,15 @@ textarea.input {
 }
 
 .header-logo {
-  float: left;
+    float: left;
 }
 
 .header-logo .logo img {
-  display: block;
-}
+        
+        display: block;
+    }
+
+\*----------------------------*/
 
 /*----------------------------*\
 	Search
@@ -2133,25 +2135,26 @@ textarea.input {
 
 /*=========================================================
 	13 -> RESPONSIVE
-===========================================================*/
-
-@media only screen and (max-width: 1201px) {}
-
-@media only screen and (max-width: 991px) {
-  #top-header .header-links.pull-left {
-    float: none !important;
-  }
-  #top-header .header-links.pull-right {
-    float: none !important;
-    margin-top: 5px;
-  }
-  .header-logo {
+    .header-logo {
     float: none;
     text-align: center;
   }
   .header-logo .logo {
     display: inline-block;
   }
+===========================================================*/
+
+@media only screen and (max-width: 1201px) {}
+
+@media only screen and (max-width: 991px) {
+  #top-header .header-links.pull-left {
+    float: none !importantlogo
+  }
+  #top-header .header-links.pull-right {
+    float: none !important;
+    margin-top: 5px;
+  }
+  
   #product-imgs {
     margin-bottom: 60px;
     margin-top: 15px;

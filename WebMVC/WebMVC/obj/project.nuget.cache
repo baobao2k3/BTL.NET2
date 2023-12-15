@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QidrKJkTedOg2/xqHAKcIOnObPdn0v9kHOwTEUBX42bHnhOKJRwa6KhdoleUxT6aGvq5BpQZqr7ntfDSfRTm4Q==",
+  "dgSpecHash": "PVFj6Xe1jz5HilC6xsPKLZLRswNH3bxo1L6BZCPsK+1hitLjhqIYNiq9fnLv+X9oeHcGdKIZP/k3LYdSa01LQg==",
   "success": true,
-  "projectFilePath": "D:\\BTLNET2\\BTL.NET2\\WebMVC\\WebMVC\\WebMVC.csproj",
+  "projectFilePath": "C:\\Users\\trand\\source\\repos\\WebMVC\\WebMVC\\WebMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trand\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\trand\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

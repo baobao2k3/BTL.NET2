@@ -7993,26 +7993,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trand\\.nuget\\packages\\": {}
+    "C:\\Users\\OS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTLNET2\\BTL.NET2\\WebMVC\\WebMVC\\WebMVC.csproj",
+      "projectUniqueName": "E:\\BTL\\BTL.NET2\\WebMVC\\WebMVC\\WebMVC.csproj",
       "projectName": "WebMVC",
-      "projectPath": "D:\\BTLNET2\\BTL.NET2\\WebMVC\\WebMVC\\WebMVC.csproj",
-      "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-      "outputPath": "D:\\BTLNET2\\BTL.NET2\\WebMVC\\WebMVC\\obj\\",
+      "projectPath": "E:\\BTL\\BTL.NET2\\WebMVC\\WebMVC\\WebMVC.csproj",
+      "packagesPath": "C:\\Users\\OS\\.nuget\\packages\\",
+      "outputPath": "E:\\BTL\\BTL.NET2\\WebMVC\\WebMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\OS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
